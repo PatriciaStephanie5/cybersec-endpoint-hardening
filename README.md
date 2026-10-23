@@ -49,12 +49,12 @@ To eliminate cleartext exposure, **Secure Shell (SSH)** is deployed to provide e
 #### Evidence 1: Terminal SSH Installation & Service Activation
 As captured in the installation output, the `openssh-server` package was unpacked and configured successfully. The SSH daemon service was subsequently started on the Kali host via `sudo service ssh start`:
 
-![SSH Installation on Kali Linux](SSH%20installation.png)
+check files uploaded in this repository
 
 #### Evidence 2: Remote Connection via PuTTY Client
 A remote session was initiated from a Windows host (`192.168.1.7`) using the **PuTTY SSH client**. The session successfully authenticated as user `kali`, traversed into the user's Desktop directory (`/Desktop`), and opened the target test directory (`sshtest`):
 
-![PuTTY SSH Session](windows%20cleint%20connection.png)
+check files uploaded in this repository
 
 ```bash
 kali@kali:~$ cd Desktop
